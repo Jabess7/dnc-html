@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    font-family: "inter";
+    
+}
+#logo{
+margin-left: 60px;
+margin-top: 52px;
+
+
+}
+#titulo-menusuperior{
+    margin-left: 125px;
+    margin-top: 50px;
+    
+
+}
+#texto-menusuperior{
+    margin-left: 125px;
+    margin-top: 35px;
+}
+#menusuperior{
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: white;
+    height: 450px;
+    background-size: cover;
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+    height:170px ;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#titulo-video{
+    color: #247BA0;
+    margin-top: 50px;
+
+}
+#texto-video{
+    color: #383838;
+    margin-top: ;
+
+
+}
+#video{
+    margin: 50px 25px 50px 100px;
+
+}
+#carrossel{
+    background-color:#247BA0 ;
+    padding: 50px;
+    
+
+}
+#titulo-carrossel{
+   
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+
+}
+
+.card{
+    margin-left: 50px;    
+    
+}
+#seta-esquerda{
+    display: none;
+}
+#bruna{
+    display: none;
+}
+.seta{
+    margin-top: 30%;
+    cursor: pointer;
+}
+.seta:hover{
+    transform:translateX(-7px) ;
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+    
+
+}
+
+#titulo-formulario{
+   font-size: 25px;
+   margin: 25px;
+   color: #383838;
+
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    margin: 10px 0 10px 0;
+    background-color: #EAECE5;
+    border-radius: 8px;
+    border: none;
+    padding-left: 10px;
+
+}
+button{
+    background-color: #247BA0;
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color:#318fb8 ;
+    color: white;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px black;
+}
